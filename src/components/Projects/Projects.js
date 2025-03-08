@@ -36,6 +36,16 @@ function Projects() {
               ghLink="https://github.com/Rakeshvimal04/eraktkosh-clone"
             />
           </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={bitsOfCode}
+              isBlog={false}
+              title="Epikdoc"
+              description="Developed a application to streamline clinic operations.Integrated a secure payment gateway for online payments and implemented SMS/email notifications for appointment confirmations and reminders.Delivered a mobile-responsive and user-friendly interface, enabling access for both doctors and patients. "
+              ghLink="https://github.com/Rakeshvimal04/eraktkosh-clone"
+            />
+          </Col>
         </Row>
       </Container>
     </Container>
