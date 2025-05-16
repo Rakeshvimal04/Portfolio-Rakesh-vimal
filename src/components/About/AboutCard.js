@@ -9,27 +9,36 @@ function AboutCard() {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Rakesh Vimal</span>
-            from <span className="purple"> Hosur, India.</span>
+            from <span className="purple">Bangalore, India.</span>
             <br />
             I have completed Bachelor of Computer Applications at SRMVCAS.
             <br />
+            I am a dedicated developer with expertise in 
+            <span className="purple"> React, Laravel, Python,</span> and 
+            <span className="purple"> Docker</span>. I also have experience with 
+            <span className="purple"> GitHub</span> for version control and 
+            <span className="purple"> SQL</span> for database management.
             <br />
-            Apart from coding, some other activities that I love to do!
+            <br />
+            My key areas of focus and expertise include:
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImPointRight /> Building dynamic web applications using React and Laravel
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
+              <ImPointRight /> Managing containerized deployments using Docker
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <ImPointRight /> Writing efficient backend logic and APIs in Python
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Database design and optimization with SQL
             </li>
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "If opportunity doesn’t knock, build a door!"{" "}
+            "Code is like humor. When you have to explain it, it’s bad."{" "}
           </p>
         </blockquote>
       </Card.Body>

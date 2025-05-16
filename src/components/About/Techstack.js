@@ -8,8 +8,9 @@ import {
   DiMongodb,
   DiPython,
   DiGit,
-  DiJava,
   DiAngularSimple,
+  DiLaravel
+
 } from "react-icons/di";
 import {
   SiRedis,
@@ -41,6 +42,9 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <DiAngularSimple />
       </Col>
+        <Col xs={4} md={2} className="tech-icons">
+        <DiLaravel />
+      </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiNodejs />
       </Col>
@@ -53,9 +57,7 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <DiPython />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
-      </Col>
+ 
     </Row>
   );
 }

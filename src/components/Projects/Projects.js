@@ -2,8 +2,10 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import chatify from "../../Assets/Projects/chatify.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import goholiday from "../../Assets/Projects/goholiday.png";
+import royaltranscript from "../../Assets/Projects/royaltranscript.png";
+import eratkosh from "../../Assets/Projects/eratkosh.png";
+
 
 function Projects() {
   return (
@@ -19,30 +21,36 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={goholiday}
               isBlog={false}
-              title="Digital Visting Card"
-              description="Developed digital visiting card websites for freelancers, using various frameworks and programming technologies like HTML5, CSS3, Javascript, Angular ,Node.js , Express, API and MySQL  .Developing and maintaining web application using frameworks"
-              ghLink="https://github.com/Rakeshvimal04/angularproject/tree/main/ample-angular-16-dashboard-free"
+              title="GOHOLIDAY 360"
+              description="Developed a responsive and dynamic frontend using blade, ensuring seamless user interaction and navigation across various devices.
+                           Engineered a robust backend with Laravel, facilitating efficient data management and secure processing of user bookings and inquiries.
+                           Integrated RESTful APIs to enable real-time communication between the frontend and backend systems, improving data accuracy and system reliability."
+              ghLink="https://www.goholiday360.com/"
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={bitsOfCode}
-              isBlog={false}
-              title="eraktkosh"
-              description="Indian eRaktkosh project,this Blood Bank Management System efficiently manages and tracks blood donations. it allows seamless donor registration, real-time inventory monitoring and streamlined communication between donors and healthcare providers."
-              ghLink="https://github.com/Rakeshvimal04/eraktkosh-clone"
-            />
-          </Col>
+        
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={royaltranscript}
               isBlog={false}
-              title="Epikdoc"
-              description="Developed a application to streamline clinic operations.Integrated a secure payment gateway for online payments and implemented SMS/email notifications for appointment confirmations and reminders.Delivered a mobile-responsive and user-friendly interface, enabling access for both doctors and patients. "
+              title="ROYAL TRANSCRIPT"
+              description="RoyalTranscripts.com an online platform designed to streamline the process of obtaining academic transcripts from Indian universities.
+              The application offers a user-friendly interface for students to submit transcript requests, track application statuses, and receive updates, therebysimplifying the traditionally complex process of transcript acquisition.
+              Developed a responsive and intuitive frontend using React.js, enhancing user experience across devices."
+              ghLink="https://royaltranscripts.com/"
+            />
+          </Col>
+
+            <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={eratkosh}
+              isBlog={false}
+              title="E-RAKTKOSH-CLONE"
+              description="The Eratkosh Clone is a web-based application designed to replicate the core functionalities and user experience of the Eratkosh platform. Built using the React framework, this project focuses on delivering a sleek, responsive, and interactive interface while ensuring optimal performance. The clone aims to provide a scalable and modular design that can be extended to meet additional requirements."
               ghLink="https://github.com/Rakeshvimal04/eraktkosh-clone"
             />
           </Col>
